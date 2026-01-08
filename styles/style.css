@@ -9,8 +9,8 @@
     font-optical-sizing: auto;
 }
 
-/* ===== common CSS ===== */
-nav{
+/* ===== common CSS start ===== */
+nav, main{
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
@@ -29,9 +29,10 @@ nav{
     background-color: midnightblue;
     color: white;
 }
+/* ===== common CSS end ===== */
 
 
-/* ===== navber realated CSS ===== */
+/* ===== navber realated CSS start ===== */
 header .navber{
     display: flex;
     justify-content: space-between;
@@ -50,9 +51,10 @@ header .navber .click a{
 header .navber .click a:hover{
     background-color: rgb(191, 191, 192);
 }
+/* ===== navber realated CSS end ===== */
 
 
-/* ===== banner realated CSS ===== */
+/* ===== banner realated CSS start ===== */
 header .banner{
     background-image: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
@@ -115,3 +117,60 @@ header .banner{
 .twoin-btn #remove-btn-bg:hover{
     color: chartreuse;
 }
+/* ===== banner realated CSS end ===== */
+
+
+/* ===== main realated CSS start (note+brain+challenge) ===== */
+/* ===== note start ===== */
+main .note{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.note h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.note p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 44px;
+}
+
+.note .card-box{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.note .card-box .card{
+padding: 55px 24px;
+border-radius: 8px;
+box-shadow: 0 0 30px 0.5px rgb(241, 241, 241);
+}
+
+.note .card-box .card .circle{
+    background-color: #F95555;
+    width: 60px;
+    padding: 14px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.note .card-box .card h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-top: 16px;
+}
+
+.note .card-box .card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+/* ===== note end ===== */
