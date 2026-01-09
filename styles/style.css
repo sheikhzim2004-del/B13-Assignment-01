@@ -10,7 +10,7 @@
 }
 
 /* ===== common CSS start ===== */
-nav, main{
+nav, main, .footer-container{
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
@@ -121,38 +121,38 @@ header .banner{
 
 
 /* ===== main realated CSS start (note+brain+challenge) ===== */
-/* ===== note start ===== */
-main .note{
+/* ===== note section start ===== */
+main #note{
     padding-top: 70px;
     text-align: center;
 }
 
-.note h1{
+#note h1{
     font-size: 48px;
     font-weight: bold;
     color: #001931;
 }
 
-.note p{
+#note p{
     font-size: 16px;
     color: #627382;
     margin-top: 16px;
     margin-bottom: 44px;
 }
 
-.note .card-box{
+#note .card-box{
     display: flex;
     gap: 24px;
     margin-bottom: 100px;
 }
 
-.note .card-box .card{
+.card-box .card{
 padding: 55px 24px;
 border-radius: 8px;
 box-shadow: 0 0 30px 0.5px rgb(241, 241, 241);
 }
 
-.note .card-box .card .circle{
+.card-box .card .circle{
     background-color: #F95555;
     width: 60px;
     padding: 14px;
@@ -160,17 +160,63 @@ box-shadow: 0 0 30px 0.5px rgb(241, 241, 241);
     margin: 0 auto;
 }
 
-.note .card-box .card h4{
+.card-box .card h4{
     font-size: 24px;
     font-weight: 600;
     color: #001931;
     margin-top: 16px;
 }
 
-.note .card-box .card p{
+.card-box .card p{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-top: 16px;
 }
-/* ===== note end ===== */
+/* ===== note section end ===== */
+
+/* ===== brain section end ===== */
+main #brain{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+
+#brain .brain-contant{
+    margin: 102px 0;
+}
+
+.brain-contant .green-p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+.brain-contant h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.brain-contant .white-p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin: 16px 0 40px 0;
+}
+
+.brain-contant ul{
+    list-style: none;
+}
+
+.brain-contant ul li{
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+.brain-contant ul li i{
+    color: #30B868;
+}
+/* ===== brain section end ===== */
+
