@@ -224,6 +224,7 @@ main #brain{
 main #challenge {
     padding: 80px 40px;
     background-color: #F7F6F2;
+    border-radius: 12px;
     margin-bottom: 120px;
     text-align: center;
 }
@@ -242,3 +243,42 @@ main #challenge {
 }
 /* ===== challenge section end ===== */
 /* ===== main realated CSS end (note+brain+challenge) ===== */
+
+
+/* ===== footer realated CSS start ===== */
+footer{
+    background-color: #001931;
+    padding-bottom: 30px;
+}
+
+footer .footer-contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 84px;
+}
+
+.footer-contant .social-section p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.social-section .links-icon a i{
+    margin-right: 16px;
+    color: white;
+}
+
+.social-section .links-icon a i:hover{
+    color: greenyellow;
+}
+
+.footer-container p{
+    margin-top: 30px;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+}
+/* ===== footer realated CSS end ===== */
