@@ -175,7 +175,7 @@ box-shadow: 0 0 30px 0.5px rgb(241, 241, 241);
 }
 /* ===== note section end ===== */
 
-/* ===== brain section end ===== */
+/* ===== brain section start ===== */
 main #brain{
     display: flex;
     gap: 60px;
